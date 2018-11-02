@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	type : 의사 전공
+	  - name : 전공 이름
+
+	doctor : 의사 정보
+	  - name : 이름
+	  - manner : 매너(MANNER)
+	  - popular : 인지도(POPULAR) -> 프로필에서 보여질 데이터
+	  - popular_text : 인지도 텍스트(POPULAR) -> 프로필에서 보여질 데이터
+	  - x : 지도에 표시될 X좌표
+	  - y : 지도에 표시될 Y좌표
+	  - image : 이미지
+	
+	DB 필드
+	`idx` : 인덱스
+	`name` : 이름
+	`manner` : 매너
+	`popular` : 인지도
+	`popular_text` : 인지도 (Modal Popup에서 보여질 텍스트)
+	`x` : 지도에 표시될 X좌표
+	`y` : 지도에 표시될 Y좌표
+	`image` : 이미지
+-->
+<docs>
+	<type name="내과">
+		<doctor name="김광원" manner="Good" popular="45" popular_text="Good">
+			<x>50</x>
+			<y>300</y>
+			<image>doc_1.jpg</image>
+		</doctor>
+		<doctor name="홍영선" manner="Great" popular="10" popular_text="Bad">
+			<x>150</x>
+			<y>120</y>
+			<image>doc_2.jpg</image>
+		</doctor>
+		<doctor name="하하호" manner="Good" popular="45" popular_text="Great">
+			<x>200</x>
+			<y>500</y>
+			<image>doc_3.jpg</image>
+		</doctor>
+	</type>
+	<type name="정신건강의학과">
+		<doctor name="최명규" manner="Bad" popular="22" popular_text="Bad">
+			<x>1000</x>
+			<y>650</y>
+			<image>doc_4.jpg</image>
+		</doctor>
+		<doctor name="이규식" manner="Bad" popular="5" popular_text="Bad">
+			<x>700</x>
+			<y>500</y>
+			<image>doc_5.jpg</image>
+		</doctor>
+	</type>
+	<type name="흉부외과">
+		<doctor name="장현규" manner="Excellent" popular="5" popular_text="Great">
+			<x>300</x>
+			<y>100</y>
+			<image>doc_6.jpg</image>
+		</doctor>
+		<doctor name="조건현" manner="Excellent" popular="90" popular_text="Excellent">
+			<x>200</x>
+			<y>600</y>
+			<image>doc_7.jpg</image>
+		</doctor>
+		<doctor name="송병주" manner="Terrible" popular="5" popular_text="Terrible">
+			<x>650</x>
+			<y>350</y>
+			<image>doc_8.png</image>
+		</doctor>
+	</type>
+	<type name="소아청소년과">
+		<doctor name="후우카" manner="Holy" popular="65" popular_text="Bad">
+			<x>1200</x>
+			<y>300</y>
+			<image>doc_10.jpg</image>
+		</doctor>
+		<doctor name="성공제" manner="Great" popular="65" popular_text="Excellent">
+			<x>1500</x>
+			<y>600</y>
+			<image>doc_13.jpg</image>
+		</doctor>
+		<doctor name="주진양" manner="Bad" popular="23" popular_text="Bad">
+			<x>1100</x>
+			<y>120</y>
+			<image>doc_14.jpg</image>
+		</doctor>
+	</type>
+</docs>

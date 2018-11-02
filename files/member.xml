@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	user : 유저의 정보
+	  - id : 아이디
+	  - password : 비밀번호
+
+	DB 필드
+	`idx` : 인덱스
+	`id` : 아이디
+	`pw` : 페스워드
+-->
+<member>
+	<normal>
+		<user id="admin" password="1234"></user>
+		<user id="user" password="1234"></user>
+	</normal>
+	<vip>
+		<user id="rock" password="roll"></user>
+		<user id="clzls123" password="qlenfrl"></user>
+		<user id="ehlwl123" password="qnxk"></user>
+	</vip>
+	<vvip>
+		<user id="vlwkclzls" password="1234"></user>
+		<user id="tjdnftlwkd" password="tlwkd"></user>
+		<user id="tjdnfehwltk" password="ehwltk"></user>
+	</vvip>
+</member>
